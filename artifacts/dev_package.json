@@ -1,0 +1,51 @@
+{
+	"id": "18d93b4a-7463-4137-b577-7bd304d43c5d",
+	"createdAt": "2023-12-20T14:27:08.794Z",
+	"createdBy": "miguel.coelho@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-ocr.git"
+	},
+	"name": "neptunesoftware-dxp-abb-scanocr",
+	"description": "Scan Document to OCR",
+	"ver": "23.12.31.958",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "2d463b48-5cca-4015-f71b-be389a668e8f",
+			"application": "scanocr",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "18d93b4a-7463-4137-b577-7bd304d43c5d"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
