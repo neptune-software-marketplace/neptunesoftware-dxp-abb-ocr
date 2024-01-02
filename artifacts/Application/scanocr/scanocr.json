@@ -456,6 +456,62 @@
 											],
 											"data": [
 												{
+													"fieldNo": "83eb5087-72e4-4a16-fac3-0426768805d5",
+													"fieldName": "oFileUploader",
+													"fieldParent": "9fccf3c5-297d-4434-eb4e-ce0c30937f6c",
+													"fieldType": "sap.ui.unified.FileUploader",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconOnly",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://fa-solid/file-upload",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "fileType",
+															"grouping": "Properties",
+															"value": "[\"jpg\",\"png\",\"jpeg\"]",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "buttonOnly",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "change",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.ui.unified.FileUploader/oFileUploader/change.js",
+															"language": "javascript",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
 													"fieldNo": "ea77611c-83e7-40e9-a628-baea2db36921",
 													"fieldName": "oBtnUpload",
 													"fieldParent": "9fccf3c5-297d-4434-eb4e-ce0c30937f6c",
@@ -465,6 +521,13 @@
 													"request": [],
 													"response": [],
 													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
 														{
 															"attribute": "icon",
 															"grouping": "Properties",
@@ -840,7 +903,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.12.27.2322",
+	"ver": "24.1.2.1643",
 	"application": "scanocr",
 	"title": "",
 	"description": "",
